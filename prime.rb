@@ -6,7 +6,7 @@
 #Do this until the square of number you are checking is greater than your max number.
 #Finally, compact the original array.
 
-test_for_prime_values = (-2..1600).to_a
+#test_for_prime_values = (-2..1600).to_a
 def prime?(num)
 num_array = (-2..1600).to_a
 
