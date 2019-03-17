@@ -6,9 +6,9 @@
 #Do this until the square of number you are checking is greater than your max number.
 #Finally, compact the original array.
 
-test_for_prime_values = (-2..1100).to_a
+test_for_prime_values = (-2..1000).to_a
 def prime?(num)
-num_array = (-2..1100).to_a
+num_array = (-2..1000).to_a
 
 
 #the first interation eliminates any neg numbers plus factors of 2 and 3 excluding 2 and 3 as first 2 prime numbers
